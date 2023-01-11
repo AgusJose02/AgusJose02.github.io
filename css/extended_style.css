@@ -1,0 +1,215 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    position: fixed;
+    background-color: #222;
+    width: 100%;
+    border-bottom: 2px solid rgb(5, 164, 196);
+    padding-top: 0px;
+    text-align: center;
+}
+
+nav ul{
+    display: inline-block;
+    height: 56px;
+}
+
+nav ul li{
+    padding-top: 3px;
+    padding-bottom: 5px;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: rgb(5, 164, 196);
+}
+
+body{
+    color: #222;
+    background-color: #fff;
+    font: 200 14px 'Poppins', sans-serif;
+}
+
+section{
+    padding: 10px 100px 10px 100px;
+}
+
+h1{
+    font-size: 42px;
+    font-weight: 300;
+    line-height: 42px;
+    padding: 70px 100px 0px 100px;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 36px;
+    padding: 10px 0px 14px 0px;
+}
+
+h3{
+    font-weight: 300;
+    color: rgb(5, 164, 196);
+    padding: 0px 0px 8px 0px;
+}
+
+th{
+    background-color: #222;
+    color: #fff;
+}
+
+i{
+    margin-right: 5px;
+    text-align: center;
+}
+
+li{
+    list-style: none;
+    color: white;
+    float: left;
+}
+
+a:any-link{
+    color: white;
+}
+a:-webkit-any-link{
+    color: white;
+}
+
+a:-moz-any-link{
+    color: white;
+}
+
+.indice{
+    padding-top: 16px;
+    color: white;
+    font-size: 20px;
+}
+
+.seccion_datos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 15px;
+    font-size: 16px;
+}
+
+.table-content{
+    margin-right: 50px;
+}
+
+.table-info{
+    margin-right: 150px;
+}
+
+.enlace:hover{
+    color: #88857E;
+    text-decoration: underline;
+    text-decoration-color: #88857E;
+}
+
+#logo{
+    margin: 0px 20px 0px 20px;
+}
+
+#formacion{
+    color: white;
+    background-color: #222;
+}
+
+#formacion h2{
+    padding-bottom: 20px;
+}
+
+#experiencia{
+    color: white;
+    background-color: #222;
+    border-top: 2px solid rgb(5, 164, 196);
+}
+
+/*Grid formacion*/
+
+.gridform{
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-gap: 10px;
+    align-content: space-around;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.cardform{
+    background-color: white;
+    color: black;
+    width: 350px;
+    border-radius: 15px;
+}
+
+.cardform img{
+    justify-content: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.cardform #mastermind{
+    padding-left: 75px;
+}
+
+.cardform h2{
+    font-size: 26px;
+    padding-bottom: 5px;
+}
+
+.cardform h3{
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+
+.cardform p{
+    text-align: justify;
+    padding-bottom: 20px;
+}
+
+.cardform h2, .cardform h3, .cardform p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*Comentario*/
+
+#comentario{
+    background-color: rgb(5, 164, 196);
+    color: #222;
+}
+
+.itemform{
+    display: grid;
+    grid-template-columns: 100px 350px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.itemform label{
+    font-weight: 700;
+}
+
+.itemform input, .itemform textarea, .itemform select{
+    border-radius: 5px;
+    border: 1px solid #222;
+}
+
+input[type="submit"]{
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    grid-column: 2/3;
+    justify-self: end;
+}
